@@ -187,6 +187,7 @@ body {
   background-color: #2e3951;
   background-image: url(../img/slider_bg.png);
   background-size: cover;
+  border-bottom: 1px solid red;
 }
 
 .main_header__slider:after {

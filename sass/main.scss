@@ -197,6 +197,14 @@ body {
 		background-color: #2e3951;
 		background-image: url(../img/slider_bg.png);
 		background-size: cover;
+		&:after {
+			content: ".";
+			display: block;
+			height: 0;
+			clear: both;
+			visibility: hidden;
+		}
+
 		& h2{
 			font-family: 'Roboto';
 			font-size: 50px;
